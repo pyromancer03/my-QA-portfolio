@@ -2,7 +2,7 @@
 Pengujian fitur pada modul register yang bertujuan untuk memastikan fitur yang mencakup proses register dapat berjalan dengan baik dan lancar sesuai dengan requirement
 
 ## TK-T6
-**Skenario**: Daftar akun baru  
+**Skenario**: Mendaftarkan akun baru  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
