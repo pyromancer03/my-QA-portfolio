@@ -109,8 +109,8 @@ Email: rizky03@gmail.com
 6. Klik "Masuk"
 
 **Data Uji**:  
-Email: rizky03@gmail.com
-Kata Sandi: rizkyf03
+Email: rizky03@gmail.com  
+Kata Sandi: rizkyf03  
 **Hasil yang Diharapkan**: User berhasil login, user diarahkan ke halaman utama, token tersimpan  
 **Hasil Sebenarnya**: User berhasil login, user diarahkan ke halaman utama, token tersimpan
 
@@ -130,8 +130,8 @@ Kata Sandi: rizkyf03
 6. Klik "Masuk"
 
 **Data Uji**:  
-Email: rizky03@gmail.com
-Kata Sandi: rizkyf03
+Email: rizky03@gmail.com  
+Kata Sandi: rizkyf03  
 **Hasil yang Diharapkan**: User berhasil login, user diarahkan ke halaman utama, token tersimpan  
 **Hasil Sebenarnya**: User berhasil login, user diarahkan ke halaman utama, token tersimpan
 
@@ -163,7 +163,7 @@ Kata Sandi: rizkyf03
 3. Masukkan no hp kurang dari 8 karakter
 
 **Data Uji**:  
-No HP: 081350
+No HP: 081350  
 **Hasil yang Diharapkan**: Tombol selanjutnya akan disabled dan proses login tidak bisa dilanjut  
 **Hasil Sebenarnya**: Tombol selanjutnya akan disabled dan proses login tidak bisa dilanjut
 
@@ -180,7 +180,7 @@ No HP: 081350
 3. Masukkan no hp lebih dari 15 karakter
 
 **Data Uji**:  
-No HP: 08138006580025466
+No HP: 08138006580025466  
 **Hasil yang Diharapkan**: Tombol selanjutnya akan disabled dan proses login tidak bisa lanjut  
 **Hasil Sebenarnya**: Tombol selanjutnya akan disabled dan proses login tidak bisa dilanjut
 
@@ -243,8 +243,8 @@ No HP: 08138006580025466
 6. Klik "Masuk"
 
 **Data Uji**:  
-Email: Rizky03@Gmail.com
-Kata Sandi: rizkyf03
+Email: Rizky03@Gmail.com  
+Kata Sandi: rizkyf03  
 **Hasil yang Diharapkan**: Sistem dapat mengenali dan menerima karakter email kombinasi huruf kecil dan huruf besar, user berhasil login dan diarahkan ke halaman utama website tokopedia  
 **Hasil Sebenarnya**: Sistem dapat mengenali dan menerima karakter email kombinasi huruf kecil dan huruf besar, user berhasil login dan diarahkan ke halaman utama website tokopedia
 
@@ -264,8 +264,8 @@ Kata Sandi: rizkyf03
 6. Klik "Masuk"
 
 **Data Uji**:  
-Email: rizky03@gmail.com
-Kata Sandi: RizKY03
+Email: rizky03@gmail.com  
+Kata Sandi: RizKY03  
 **Hasil yang Diharapkan**: Sistem dapat memvalidasi case sensitive pada password dan muncul pesan error "Email atau kata sandi salah", user gagal login  
 **Hasil Sebenarnya**: Sistem dapat memvalidasi case sensitive pada password dan muncul pesan error "Email atau kata sandi salah", user gagal login
 **Catatan**: Pesan error tidak spesifik dan masih bersifat umum. Pesan error mungkin bisa dibuat lebih spesifik lagi pada tahap UX
@@ -285,7 +285,7 @@ Kata Sandi: RizKY03
 5. Klik ikon mata
 
 **Data Uji**:  
-Email: rizky03@gmail.com
-Kata Sandi: rizkyf03
+Email: rizky03@gmail.com  
+Kata Sandi: rizkyf03  
 **Hasil yang Diharapkan**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses login  
 **Hasil Sebenarnya**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses login
