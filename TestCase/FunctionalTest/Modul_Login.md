@@ -115,7 +115,7 @@ Kata Sandi: rizkyf03
 **Hasil Sebenarnya**: User berhasil login, user diarahkan ke halaman utama, token tersimpan
 
 ## TK-T8
-**Skenario**: Format No Hp atau Email tidak sesuai  
+**Skenario**: Format No HP atau Email tidak sesuai  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
 **Jenis Tes**: Functional Test  
