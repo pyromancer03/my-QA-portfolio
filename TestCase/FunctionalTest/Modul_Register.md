@@ -150,7 +150,7 @@ Email: Rizky03@Gmail.com
 ## TK-T25
 **Skenario**: Show/hide kata sandi  
 **Jenis Pendekatan**: Positive Test  
-**Prioritas**: Normal  
+**Prioritas**: Low  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
