@@ -41,5 +41,5 @@ Kata Sandi: Rizky123
 
 **Data Uji**:  
 No HP: 081350  
-**Hasil yang Diharapkan**: Sistem dapat menyimpan informasi kata sandi baru yang telah diubah, user berhasil mengubah password  
-**Hasil Sebenarnya**: Sistem dapat menyimpan informasi kata sandi baru yang telah diubah, user berhasil mengubah password
+**Hasil yang Diharapkan**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"  
+**Hasil Sebenarnya**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"
