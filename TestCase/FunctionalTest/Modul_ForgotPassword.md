@@ -81,3 +81,23 @@ No HP: 0813800546584848485415
 Email: rizky@com  
 **Hasil yang Diharapkan**: Sistem dapat memvalidasi format email yang salah, muncul pesan error di bawah form email "Format email salah"  
 **Hasil Sebenarnya**: Sistem dapat memvalidasi format email yang salah, muncul pesan error di bawah form email "Format email salah"
+
+## TK-T31
+**Skenario**: Memasukkan No HP atau email yang belum terdaftar  
+**Jenis Pendekatan**: Negative Test  
+**Prioritas**: High  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Tidak ada  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi?"
+4. Masukkan no hp atau email yang tidak terdaftar
+5. Klik ​"Lanjut"
+
+**Data Uji**:  
+No HP: 081380054545
+Email: rizkyf@gmail.com  
+**Hasil yang Diharapkan**: Sistem dapat memvalidasi no hp atau email yang belum terdaftar, muncul pesan error di bawah form no hp atau email "Email atau Nomor Telepon tidak terdaftar"  
+**Hasil Sebenarnya**: Sistem dapat memvalidasi no hp atau email yang belum terdaftar, muncul pesan error di bawah form no hp atau email "Email atau Nomor Telepon tidak terdaftar"
