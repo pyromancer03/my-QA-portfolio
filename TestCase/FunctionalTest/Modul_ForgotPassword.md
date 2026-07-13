@@ -101,3 +101,99 @@ No HP: 081380054545
 Email: rizkyf@gmail.com  
 **Hasil yang Diharapkan**: Sistem dapat memvalidasi no hp atau email yang belum terdaftar, muncul pesan error di bawah form no hp atau email "Email atau Nomor Telepon tidak terdaftar"  
 **Hasil Sebenarnya**: Sistem dapat memvalidasi no hp atau email yang belum terdaftar, muncul pesan error di bawah form no hp atau email "Email atau Nomor Telepon tidak terdaftar"
+
+## TK-T32
+**Skenario**: Show/hide kata sandi  
+**Jenis Pendekatan**: Positive Test  
+**Prioritas**: Normal  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Memiliki akun terdaftar  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi?"
+4. Masukkan no hp atau email terdaftar
+5. Klik "Lanjut"
+6. Masukkan kode verifikasi
+7. Masukkan kata sandi baru dan ketik ulang kata sandi baru
+8. Klik ikon mata
+
+**Data Uji**:  
+No HP: 081380065633
+Email: rizky03@gmail.com  
+Kata Sandi: Rizky123  
+**Hasil yang Diharapkan**: Kata sandi dapat di show/hide  
+**Hasil Sebenarnya**: Kata sandi dapat di show/hide
+
+## TK-T33
+**Skenario**: Memasukkan kata sandi baru dengan kata sandi lama  
+**Jenis Pendekatan**: Negative Test  
+**Prioritas**: Normal  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Kata sandi lama "rizkyf03"  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi?"
+4. Masukkan no hp atau email terdaftar
+5. Klik "Lanjut"
+6. Masukkan kode verifikasi
+7. Masukkan kata sandi baru dan ketik ulang kata sandi baru dengan kata sandi lama
+8. Klik "Lanjut"
+
+**Data Uji**:  
+No HP: 081380065633
+Email: rizky03@gmail.com  
+Kata Sandi: rizkyf03  
+**Hasil yang Diharapkan**: Sistem berhasil menampilkan pesan error "Kata sandi baru harus berbeda dengan kata sandi lama", ubah password gagal  
+**Hasil Sebenarnya**: Sistem berhasil menampilkan pesan error "Kata sandi baru harus berbeda dengan kata sandi lama", ubah password gagal
+
+## TK-T34
+**Skenario**: Akun otomatis keluar di semua perangkat ketika ubah kata sandi baru  
+**Jenis Pendekatan**: Positive Test  
+**Prioritas**: High  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Sud​​​​​ah login dengan akun yang sama di beberapa perangkat  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi?"
+4. Masukkan no hp atau email terdaftar
+5. Klik "Lanjut"
+6. Masukkan kode verifikasi
+7. Masukkan kata sandi baru dan ketik ulang kata sandi baru
+8. Klik "Lanjut"
+
+**Data Uji**:  
+No HP: 081380065633
+Email: rizky03@gmail.com  
+Kata Sandi: Rizky123  
+**Hasil yang Diharapkan**: Akun yang tertaut pada perangkat lain berhasil logout setelah ubah kata sandi, ubah kata sandi berhasil  
+**Hasil Sebenarnya**: Akun yang tertaut pada perangkat lain berhasil logout setelah ubah kata sandi, ubah kata sandi berhasil
+
+## TK-T35
+**Skenario**: "Kata Sandi Baru" dan "Ketik Ulang Kata Sandi Baru" tidak sama  
+**Jenis Pendekatan**: Negative Test  
+**Prioritas**: High  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Memiliki akun terdaftar    
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi?"
+4. Masukkan no hp atau email terdaftar
+5. Klik "Lanjut"
+6. Masukkan kode verifikasi
+7. Masukkan kata sandi baru dan ketik ulang kata sandi baru dengan isian yang tidak sama
+
+**Data Uji**:  
+No HP: 081380065633
+Email: rizky03@gmail.com  
+Kata Sandi Baru: RizkyF03  
+Ketik Ulang Kata Sandi: rizkyf
+**Hasil yang Diharapkan**: Sistem berhasil menampilkan pesan error "Kata sandi baru tidak cocok", proses ubah kata sandi tidak bisa dilanjut  
+**Hasil Sebenarnya**: Sistem berhasil menampilkan pesan error "Kata sandi baru tidak cocok", proses ubah kata sandi tidak bisa dilanjut
