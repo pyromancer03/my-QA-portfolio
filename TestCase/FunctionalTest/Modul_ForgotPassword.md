@@ -43,3 +43,41 @@ Kata Sandi: Rizky123
 No HP: 081350  
 **Hasil yang Diharapkan**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"  
 **Hasil Sebenarnya**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"
+
+## TK-T29
+**Skenario**: No HP lebih dari 15 karakter  
+**Jenis Pendekatan**: Negative Test  
+**Prioritas**: Normal  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Tidak ada  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik ​"Lupa kata sandi?"
+4. Masukkan no hp lebih dari 15 karakter
+5. Klik "Lanjut"
+
+**Data Uji**:  
+No HP: 0813800546584848485415  
+**Hasil yang Diharapkan**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu panjang, maksimum 15 angka"  
+**Hasil Sebenarnya**: Muncul pesan error di bawah form no hp "Nomor ponsel terlalu panjang, maksimum 15 angka"
+
+## TK-T30
+**Skenario**: Memasukkan format email yang tidak sesuai  
+**Jenis Pendekatan**: Negative Test  
+**Prioritas**: Normal  
+**Jenis Tes**: Functional Test  
+**Prasyarat**: Tidak ada  
+**Langkah Pengujian**:
+
+1. Buka Website
+2. Klik "Masuk"
+3. Klik "Lupa kata sandi"
+4. Masukkan email dengan format yang tidak sesuai
+5. Klik "Lanjut"
+
+**Data Uji**:  
+Email: rizky@com  
+**Hasil yang Diharapkan**: Sistem dapat memvalidasi format email yang salah, muncul pesan error di bawah form email "Format email salah"  
+**Hasil Sebenarnya**: Sistem dapat memvalidasi format email yang salah, muncul pesan error di bawah form email "Format email salah"
