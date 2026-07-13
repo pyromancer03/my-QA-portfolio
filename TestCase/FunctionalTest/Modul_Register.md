@@ -107,7 +107,7 @@ No HP: 081380065633326449
 
 1. Buka Website
 2. K​lik "Daftar"
-3. Masukkan format email yang salah
+3. Masukkan format email yang tidak sesuai
 
 **Data Uji**:  
 Email: rizky03@.com  
@@ -139,7 +139,7 @@ Email: rizky03@.com
 
 1. Buka Website
 2. K​lik "Daftar"
-3. Masukkan email dengan kombinasi lowercase dan uppercase
+3. Masukkan email dengan kombinasi huruf kecil dan huruf besar
 4. Klik "Daftar"
 
 **Data Uji**:  
