@@ -264,7 +264,7 @@ Kata Sandi: rizkyf03
 Email: rizky03@gmail.com  
 Kata Sandi: RizKY03  
 **Hasil yang Diharapkan**: Sistem dapat memvalidasi case sensitive pada password dan muncul pesan error "Email atau kata sandi salah", user gagal login  
-**Hasil Sebenarnya**: Sistem dapat memvalidasi case sensitive pada password dan muncul pesan error "Email atau kata sandi salah", user gagal login
+**Hasil Sebenarnya**: Sistem dapat memvalidasi case sensitive pada password dan muncul pesan error "Email atau kata sandi salah", user gagal login  
 **Catatan**: Pesan error tidak spesifik dan masih bersifat umum. Pesan error mungkin bisa dibuat lebih spesifik lagi pada tahap UX
 
 ## TK-T17
