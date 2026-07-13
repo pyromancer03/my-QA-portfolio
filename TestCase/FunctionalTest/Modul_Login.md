@@ -48,13 +48,13 @@ Email: rizky@gmail.com
 **Langkah Pengujian**:
 
 1. Buka Website
-2. Masukkan no hp atau email yang terdaftar
+2. Masukkan email yang terdaftar
 3. Klik "Selanjutnya"
 4. Masukkan kata sandi
-5. Klik "Masuk"
+5. Centang "Ingat saya"
+6. Klik "Masuk"
 
 **Data Uji**:  
-No HP: 081380065633  
 Email: rizky03@gmail.com  
 **Hasil yang Diharapkan**: Sistem dapat menyimpan token informasi login user, user berhasil login  
 **Hasil Sebenarnya**: Sistem dapat menyimpan token informasi login user, user berhasil login
@@ -90,8 +90,8 @@ Email: rizky03@gmail.com
 5. Pilih akun google dari tampilan pop up
 6. Masukkan kode verifikasi yang dikirim ke alamat email
 
-**Hasil yang Diharapkan**: User berhasil masuk dengan akun google, user diarahkan ke halaman utama tokopedia  
-**Hasil Sebenarnya**: User berhasil masuk dengan akun google, user diarahkan ke halaman utama tokopedia4
+**Hasil yang Diharapkan**: User berhasil masuk dengan akun google, user diarahkan ke halaman utama  
+**Hasil Sebenarnya**: User berhasil masuk dengan akun google, user diarahkan ke halaman utama
 
 ## TK-T7
 **Skenario**: Login dengan email terdaftar  
@@ -124,16 +124,13 @@ Kata Sandi: rizkyf03
 
 1. Buka Website
 2. Klik "Masuk"
-3. Masukkan email terdaftar
-4. Klik "Selanjutnya"
-5. Masukkan kata sandi
-6. Klik "Masuk"
+3. Masukkan format no hp atau email yang tidak sesuai
 
 **Data Uji**:  
 Email: rizky03@gmail.com  
 Kata Sandi: rizkyf03  
-**Hasil yang Diharapkan**: User berhasil login, user diarahkan ke halaman utama, token tersimpan  
-**Hasil Sebenarnya**: User berhasil login, user diarahkan ke halaman utama, token tersimpan
+**Hasil yang Diharapkan**: Tombol selanjutnya akan disabled jika format input tidak sesuai aturan dan tidak bisa lanjut proses login  
+**Hasil Sebenarnya**: Tombol selanjutnya akan disabled jika format input tidak sesuai aturan dan tidak bisa lanjut proses login
 
 ## TK-T9
 **Skenario**: No HP atau email kosong   
@@ -159,7 +156,7 @@ Kata Sandi: rizkyf03
 **Langkah Pengujian**:
 
 1. Buka Website
-2. K​lik masuk
+2. K​lik "Masuk"
 3. Masukkan no hp kurang dari 8 karakter
 
 **Data Uji**:  
@@ -176,7 +173,7 @@ No HP: 081350
 **Langkah Pengujian**:
 
 1. Buka Website
-2. K​lik masuk
+2. K​lik "Masuk"
 3. Masukkan no hp lebih dari 15 karakter
 
 **Data Uji**:  
@@ -230,7 +227,7 @@ No HP: 08138006580025466
 ## TK-T15
 **Skenario**: Email case insensitive  
 **Jenis Pendekatan**: Positive Test  
-**Prioritas**: High  
+**Prioritas**: Normal  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Memiliki akun terdaftar  
 **Langkah Pengujian**:
