@@ -105,7 +105,7 @@ Email: rizkyf@gmail.com
 ## TK-T32
 **Skenario**: Show/hide kata sandi  
 **Jenis Pendekatan**: Positive Test  
-**Prioritas**: Normal  
+**Prioritas**: Low  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Memiliki akun terdaftar  
 **Langkah Pengujian**:
@@ -123,8 +123,8 @@ Email: rizkyf@gmail.com
 No HP: 081380065633
 Email: rizky03@gmail.com  
 Kata Sandi: Rizky123  
-**Hasil yang Diharapkan**: Kata sandi dapat di show/hide  
-**Hasil Sebenarnya**: Kata sandi dapat di show/hide
+**Hasil yang Diharapkan**: Kata sandi dapat di show/hide, proses ubah kata sandi dapat dilanjut  
+**Hasil Sebenarnya**: Kata sandi dapat di show/hide, proses ubah kata sandi dapat dilanjut
 
 ## TK-T33
 **Skenario**: Memasukkan kata sandi baru dengan kata sandi lama  
@@ -194,6 +194,6 @@ Kata Sandi: Rizky123
 No HP: 081380065633
 Email: rizky03@gmail.com  
 Kata Sandi Baru: RizkyF03  
-Ketik Ulang Kata Sandi: rizkyf
+Ketik Ulang Kata Sandi: rizkyf  
 **Hasil yang Diharapkan**: Sistem berhasil menampilkan pesan error "Kata sandi baru tidak cocok", proses ubah kata sandi tidak bisa dilanjut  
 **Hasil Sebenarnya**: Sistem berhasil menampilkan pesan error "Kata sandi baru tidak cocok", proses ubah kata sandi tidak bisa dilanjut
