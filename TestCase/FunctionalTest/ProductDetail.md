@@ -6,7 +6,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -19,7 +19,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -33,7 +33,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -47,7 +47,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -60,7 +60,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -74,7 +74,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -88,7 +88,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -103,7 +103,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
@@ -117,7 +117,7 @@ Pengujian fitur pada modul product detail yang bertujuan untuk memastikan fitur 
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14""  
+**Prasyarat**: Berada di halaman hasil pencarian "Asus Vivobook Go 14"  
 **Langkah Pengujian**:
 
 1. Klik thumbnail produk
