@@ -44,4 +44,6 @@ Pengujian akan dilaksanakan secara **manual testing** dengan menerapkan metode *
 - Environment: Production
 
 ## 7. Kriteria Keberhasilan
-- 
+- Minimal 95% test case berhasil (Pass).
+- Tidak ditemukan defect dengan severity Critical maupun High.
+- Semua fungsi utama (Login, Register, Forgot Password, Product Search, Product Detail, dan Cart) berjalan sesuai expected result.
