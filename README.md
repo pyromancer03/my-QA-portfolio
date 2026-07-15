@@ -13,4 +13,40 @@ Repository ini berisi dokumentasi Manual Software Quality Assurance untuk aplika
 - Cart
 
 ### Out of Scope (Tidak termasuk)
-- 
+- Database validation
+- Performance testing
+- Security penetration testing
+
+## Pendekatan Pengujian
+- Manual Testing
+- Black-box Testing
+- Skenario Positif & Negatif
+- Boundary Value Analysis
+- Equivalence Partioning
+- Exploratory Testing
+
+## Tools dan Lingkungan Pengujian
+- Sistem Operasi: Windows 11
+- Browser: Google Chrome 150
+- Test Management Tool: Jira Zephyr
+- Environment: Production
+- Dokumentasi: Markdown
+
+## Struktur Repository  
+TestCase/
+├── APITest/
+│   └── Modul_Login.md
+├── FunctionalTest/
+│   ├── Cart.md
+│   ├── Modul_ForgotPassword.md
+│   ├── Modul_Login.md
+│   ├── Modul_ProductDetail.md
+│   ├── Modul_ProductSearch.md
+│   └── Modul_Register.md
+├── TestPlan/
+│   └── TestPlan_TokopediaInspired.md
+└── README.md
+
+## Tentang Saya
+Nama: Muhammad Rizky Fiqryansyah
+Email: rizkyansyah7255@gmail.com
