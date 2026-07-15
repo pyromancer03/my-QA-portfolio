@@ -33,18 +33,18 @@ Repository ini berisi dokumentasi Manual Software Quality Assurance untuk aplika
 - Dokumentasi: Markdown
 
 ## Struktur Repository  
-TestCase/
-├── APITest/
-│   └── Modul_Login.md
-├── FunctionalTest/
-│   ├── Cart.md
-│   ├── Modul_ForgotPassword.md
-│   ├── Modul_Login.md
-│   ├── Modul_ProductDetail.md
-│   ├── Modul_ProductSearch.md
-│   └── Modul_Register.md
-├── TestPlan/
-│   └── TestPlan_TokopediaInspired.md
+TestCase/  
+├── APITest/  
+│   └── Modul_Login.md  
+├── FunctionalTest/  
+│   ├── Cart.md  
+│   ├── Modul_ForgotPassword.md  
+│   ├── Modul_Login.md  
+│   ├── Modul_ProductDetail.md  
+│   ├── Modul_ProductSearch.md  
+│   └── Modul_Register.md  
+├── TestPlan/  
+│   └── TestPlan_TokopediaInspired.md  
 └── README.md
 
 ## Tentang Saya
