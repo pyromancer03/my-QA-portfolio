@@ -2,11 +2,15 @@
 Pengujian fitur pada modul forgot password yang bertujuan untuk memastikan fitur yang mencakup proses forgot password dapat berjalan dengan baik dan lancar sesuai dengan requirement
 
 ## TK-T27
-**Skenario**: Ubah kata sandi baru  
+**Test Case**: Ubah kata sandi baru  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki akun terdaftar  
+**Prasyarat**:
+- Akun sudah terdaftar
+- 
+
 **Langkah Pengujian**:
 
 1. Buka Website
