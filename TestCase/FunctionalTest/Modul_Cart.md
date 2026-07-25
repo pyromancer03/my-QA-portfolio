@@ -50,9 +50,10 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 - Sistem menampilkan pesan pop up "Berhasil ditambahkan"
 - Badge ikon keranjang bertambah
 - Produk berhasil masuk dan ditampilkan di keranjang dengan nama, varian, harga, quantity produk yang sesuai
+- Quantity produk dengan varian/spesifikasi yang sama akan bertambah
 - Produk yang sama dari toko yang sama ditampilkan dalam satu grup pada halaman keranjang tanpa membuat entri produk baru
 
-**Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai, produk yang sama dari toko yang sama tidak membuat list baru
+**Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai, quantity produk bertambah, produk yang sama dari toko yang sama tidak membuat list baru
 
 ## TK-T48
 **Test Case**: Menambahkan produk yang sama dengan varian yang berbeda  
@@ -78,7 +79,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 - Sistem menampilkan pesan pop up "Berhasil ditambahkan"
 - Badge ikon keranjang bertambah
 - Produk berhasil masuk dan ditampilkan di keranjang dengan nama, varian, harga, quantity produk yang sesuai
-- Produk yang sama dari toko yang sama ditampilkan dalam satu grup pada halaman keranjang tanpa membuat entri produk baru
+- Produk yang sama dari toko yang sama ditampilkan dalam satu grup pada halaman keranjang dengan membuat entri produk baru
 
 **Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai, produk yang sama tetap berada pada grup toko yang sama
 
@@ -130,11 +131,12 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Menghapus produk dari keranjang  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
 - User minimal memiliki 1 produk di keranjang
+
 **Langkah Pengujian**:
 
 1. Buka halaman keranjang
@@ -151,11 +153,12 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Mengubah quantity produk di keranjang  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
 - User minimal memiliki 1 produk di keranjang
+
 **Langkah Pengujian**:
 
 1. Buka halaman keranjang
@@ -173,7 +176,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Menambahkan quantity produk di keranjang melebihi stok  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
@@ -196,7 +199,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Isi 0 pada quantity produk di keranjang 
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
@@ -219,7 +222,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Memilih beberapa produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
@@ -242,7 +245,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Menghapus beberapa produk sekaligus  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
@@ -266,7 +269,7 @@ Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang menca
 **Test Case**: Menampilkan total harga produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - User sudah login
