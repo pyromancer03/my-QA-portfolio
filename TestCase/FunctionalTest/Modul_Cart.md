@@ -2,178 +2,284 @@
 Pengujian fitur pada modul cart yang bertujuan untuk memastikan fitur yang mencakup proses cart dapat berjalan dengan baik dan lancar sesuai dengan requirement
 
 ## TK-T46
-**Skenario**: Menambahkan produk  
+**Test Case**: Menambahkan produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: User sudah login  
+**Prasyarat**:  
+- User sudah login
+- User berada di halaman detail produk
+- Stok produk tersedia
+
 **Langkah Pengujian**:
 
-1. Cari produk
-2. K​​​​​lik thumbnail produk
-3. Tentukan spesifikasi produk (jika tersedia)
-4. Masukkan quantity produk
-5. Klik "Keranjang"
+1. Pilih varian/spesifikasi produk (jika tersedia)
+2. Masukkan quantity produk
+3. Klik "Keranjang"
+4. Buka halaman keranjang
 
-**Data Uji**:  
-Produk: Asus Vivobook Go 14  
-**Hasil yang Diharapkan**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart  
-**Hasil Sebenarnya**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart
+**Hasil yang Diharapkan**:  
+- Sistem menampilkan pesan pop up "Berhasil ditambahkan"
+- Badge ikon keranjang bertambah
+- Produk berhasil masuk dan ditampilkan di keranjang dengan nama, varian, harga, quantity produk yang sesuai
+
+**Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai
 
 ## TK-T47
-**Skenario**: Menambahkan produk yang sama di toko yang sama  
+**Test Case**: Menambahkan produk yang sama dari toko yang sama  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk yang sama di cart dan berada pada halaman produk di toko yang sama  
+**Prasyarat**:
+- User sudah login
+- User telah menambahkan produk yang sama ke keranjang sebelumnya
+- User kembali membuka halaman detail produk yang sama dari toko yang sama
+- Stok produk tersedia
+
 **Langkah Pengujian**:
 
-1. Isi spesifikasi produk yang sama
+1. Buka kembali halaman detail produk yang sama
+2. Pilih varian/spesifikasi produk yang sama
 3. Masukkan quantity produk
 4. Klik "Keranjang"
+5. Buka halaman keranjang
   
-**Hasil yang Diharapkan**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart, quantity produk yang sama bertambah, tidak membuat list produk baru jika di toko yang sama  
-**Hasil Sebenarnya**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart, quantity produk yang sama bertambah, tidak membuat list produk baru jika di toko yang sama
+**Hasil yang Diharapkan**:
+- Sistem menampilkan pesan pop up "Berhasil ditambahkan"
+- Badge ikon keranjang bertambah
+- Produk berhasil masuk dan ditampilkan di keranjang dengan nama, varian, harga, quantity produk yang sesuai
+- Produk yang sama dari toko yang sama ditampilkan dalam satu grup pada halaman keranjang tanpa membuat entri produk baru
+
+**Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai, produk yang sama dari toko yang sama tidak membuat list baru
 
 ## TK-T48
-**Skenario**: Menambahkan produk yang sama namun dengan spesifikasi produk berbeda  
+**Test Case**: Menambahkan produk yang sama dengan varian yang berbeda  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk yang sama di cart dan berada pada halaman produk di toko yang sama  
+**Prasyarat**: 
+- User sudah login
+- User telah menambahkan produk yang sama ke keranjang sebelumnya
+- User kembali membuka halaman detail produk yang sama dari toko yang sama
+- Stok produk tersedia
+  
 **Langkah Pengujian**:
 
-1. Isi spesifikasi produk yang berbeda
+1. Buka kembali halaman detail produk yang sama
+2. Pilih varian/spesifikasi produk yang berbeda
 3. Masukkan quantity produk
 4. Klik "Keranjang"
+5. Buka halaman keranjang
   
-**Hasil yang Diharapkan**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart, produk yang sama tetap berada pada grup toko yang sama  
-**Hasil Sebenarnya**: Muncul pop up "Berhasil ditambahkan", produk berhasil ditambahkan ke cart, produk yang sama tetap berada pada grup toko yang sama
+**Hasil yang Diharapkan**:
+- Sistem menampilkan pesan pop up "Berhasil ditambahkan"
+- Badge ikon keranjang bertambah
+- Produk berhasil masuk dan ditampilkan di keranjang dengan nama, varian, harga, quantity produk yang sesuai
+- Produk yang sama dari toko yang sama ditampilkan dalam satu grup pada halaman keranjang tanpa membuat entri produk baru
+
+**Hasil Sebenarnya**: Website berhasil menampilkan pesan pop up, badge berhasil bertambah, produk berhasil ditambahkan ke keranjang, informasi produk sudah sesuai, produk yang sama tetap berada pada grup toko yang sama
 
 ## TK-T49
-**Skenario**: Menambahkan quantity produk  
+**Test Case**: Menambahkan quantity produk di keranjang
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
+- Stok produk masih tersedia untuk penambahan quantity (lebih dari quantity yang ada di keranjang)
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Klik "+" pada produk
+1. Buka halaman keranjang
+3. Klik "+" pada produk
   
-**Hasil yang Diharapkan**: Quantity produk bertambah +1  
-**Hasil Sebenarnya**: Quantity produk bertambah +1
+**Hasil yang Diharapkan**:
+- Quantity produk +1
+- Harga produk satuan tetap
+
+**Hasil Sebenarnya**: Quantity produk berhasil bertambah, harga satuan produk tidak berubah
 
 ## TK-T50
-**Skenario**: Mengurangi quantity produk  
+**Test Case**: Mengurangi quantity produk di keranjang 
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki quantity produk >1 di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
+- Quantity produk yang diuji harus > 1
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
+1. Buka halaman keranjang
 2. Klik "-" pada produk
   
-**Hasil yang Diharapkan**: Quantity produk berhasil dikurangi -1  
-**Hasil Sebenarnya**: Quantity produk berhasil dikurangi -1
+**Hasil yang Diharapkan**:
+- Quantity produk -1
+- Harga produk satuan tetap
+
+**Hasil Sebenarnya**: Quantity produk berhasil berkurang, harga satuan produk tidak berubah
 
 ## TK-T51
-**Skenario**: Menghapus produk dari cart  
+**Test Case**: Menghapus produk dari keranjang  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Klik ikon hapus pada produk
+1. Buka halaman keranjang
+2. Klik ikon hapus pada produk yang ingin dihapus
   
-**Hasil yang Diharapkan**: Produk berhasil terhapus dari cart  
-**Hasil Sebenarnya**: Produk berhasil terhapus dari cart
+**Hasil yang Diharapkan**:
+- Muncul pesan "Produk telah dihapus"
+- Produk terhapus dari keranjang
+- Badge ikon keranjang akan berkurang
+
+**Hasil Sebenarnya**: Website berhasil menampilkan pesan yang sesuai, produk berhasil dihapus, badge keranjang berkurang
 
 ## TK-T52
-**Skenario**: Mengubah quantity produk  
+**Test Case**: Mengubah quantity produk di keranjang  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Isi manual quantity pada produk
+1. Buka halaman keranjang
+2. Klik kolom input quantity produk
+3. Masukkan nilai secara manual (Misal dari 1 menjadi 7)
+4. Klik cursor ke area kosong di website
   
-**Hasil yang Diharapkan**: Quantity produk berhasil diubah sesuai dengan angka yang dimasukkan  
-**Hasil Sebenarnya**: Quantity produk berhasil diubah sesuai dengan angka yang dimasukkan
+**Hasil yang Diharapkan**:
+- Quantity produk berubah mengikuti masukkan dari user
+- Nilai quantity produk tidak melebihi stok yang tersedia
+
+**Hasil Sebenarnya**: Quantity produk berhasil diubah sesuai dengan angka yang dimasukkan, nilai quantity tidak melebihi stok
 
 ## TK-T53
-**Skenario**: Menambahkan quantity produk melebihi stok  
+**Test Case**: Menambahkan quantity produk di keranjang melebihi stok  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Isi quantity melebihi stok toko
+1. Buka halaman keranjang
+2. Klik kolom input quantity produk
+3. Masukkan nilai melebihi stok yang tersedia
+4. Klik cursor ke area kosong di website
   
-**Hasil yang Diharapkan**: Sistem otomatis mengisi quantity produk ke jumlah maksimal produk yang sedang tersedia  
-**Hasil Sebenarnya**: Sistem otomatis mengisi quantity produk ke jumlah maksimal produk yang sedang tersedia
+**Hasil yang Diharapkan**:
+- Nilai melebihi stok, otomatis berubah ke nilai maksimal stok yang tersedia
+- Menampilkan teks peringatan di bawah kolom input quantity "Maks. beli "batas stok""
+
+**Hasil Sebenarnya**: Quantity otomatis berubah ke maksimal stok tersedia, berhasil menampilkan teks peringatan
 
 ## TK-T54
-**Skenario**: Isi 0 pada quantity produk  
+**Test Case**: Isi 0 pada quantity produk di keranjang 
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki produk di cart  
+**Prasyarat**:
+- User sudah login
+- User minimal memiliki 1 produk di keranjang
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Isi quantity produk menjadi 0
+1. Buka halaman keranjang
+2. Klik kolom input quantity produk
+3. Masukkan nilai quantity menjadi 0
+4. Klik cursor ke area kosong di website
   
-**Hasil yang Diharapkan**: Sistem menampilkan pesan error "Min. beli 1", quantity produk otomatis terisi 1  
-**Hasil Sebenarnya**: Sistem menampilkan pesan error "Min. beli 1", quantity produk otomatis terisi 1
+**Hasil yang Diharapkan**:
+- Nilai quantity otomatis terisi 1 (Tergantung jumlah minimal pembelian)
+- Menampilkan teks peringatan di bawah kolom input quantity "Min. beli 1" (Tergantung jumlah minimal pembelian)
+
+**Hasil Sebenarnya**: Nilai quantity terisi 1, berhasil menampilkan teks peringatan
 
 ## TK-T55
-**Skenario**: Memilih beberapa produk  
+**Test Case**: Memilih beberapa produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki beberapa produk di cart  
+**Prasyarat**:
+- User sudah login
+- User memiliki >1 produk di keranjang
+- Stok produk di keranjang masih tersedia
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
-2. Klik checkbox pada beberapa produk
+1. Buka halaman keranjang
+2. Centang beberapa produk yang ada di keranjang
   
-**Hasil yang Diharapkan**: Beberapa produk dapat diselect/dipilih  
-**Hasil Sebenarnya**: Beberapa produk dapat diselect/dipilih
+**Hasil yang Diharapkan**:
+- Produk yang masih tersedia stoknya bisa dicentang
+- Produk yang sudah kosong stoknya tidak bisa dipilih
+- Total harga produk yang dipilih ditampilkan
+
+**Hasil Sebenarnya**: Produk berhasil dipilih, harga total produk berhasil dikalkulasikan dan ditampilkan
 
 ## TK-T56
-**Skenario**: Menghapus beberapa produk sekaligus  
+**Test Case**: Menghapus beberapa produk sekaligus  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki beberapa produk di cart  
+**Prasyarat**:
+- User sudah login
+- Memiliki produk >1 di keranjang
+- Produk bisa dipilih (Stok produk masih tersedia)
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
+1. Buka halaman keranjang
 2. Centang pada beberapa produk
 3. Klik "Hapus"
-4. Klik "Hapus" pada pop up
+4. Klik "Hapus" pada pop up konfirmasi
   
-**Hasil yang Diharapkan**: Produk yang dipilih berhasil terhapus dari cart  
-**Hasil Sebenarnya**: Produk yang dipilih berhasil terhapus dari cart
+**Hasil yang Diharapkan**: 
+- Produk yang dipilih terhapus
+- Produk yang terhapus tidak tampil di keranjang
+
+**Hasil Sebenarnya**: Produk berhasil terhapus, produk akan hilang dari keranjang
 
 ## TK-T57
-**Skenario**: Menampilkan total harga produk  
+**Test Case**: Menampilkan total harga produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki beberapa produk di cart  
+**Prasyarat**:
+- User sudah login
+- Memiliki produk >1 di keranjang
+- Stok produk masih tersedia
+
 **Langkah Pengujian**:
 
-1. Buka menu cart
+1. Buka halaman keranjang
 2. Centang pada beberapa produk
   
-**Hasil yang Diharapkan**: Menampilkan total harga produk yang dicentang  
-**Hasil Sebenarnya**: Menampilkan total harga produk yang dicentang
+**Hasil yang Diharapkan**:
+- Total harga produk yang dipilih akan dikalkulasikan dan ditampilkan
+- Proses checkout dapat dilanjutkan
+
+**Hasil Sebenarnya**: Total harga produk berhasil tampil, user dapat lanjut proses checkout
