@@ -134,7 +134,7 @@ Email: rizkyf@gmail.com
 **Test Case**: Show/hide kata sandi  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Low  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**:
 - Memiliki akun terdaftar
