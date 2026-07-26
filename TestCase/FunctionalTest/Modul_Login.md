@@ -363,7 +363,7 @@ Kata Sandi: RizKY03
 **Test Case**: Show/hide kata sandi  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Low  
-
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
@@ -377,5 +377,8 @@ Kata Sandi: RizKY03
 **Data Uji**:  
 Email: rizky03@gmail.com  
 Kata Sandi: rizkyf03  
-**Hasil yang Diharapkan**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses login  
-**Hasil Sebenarnya**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses login
+**Hasil yang Diharapkan**:
+- Kata sandi dapat dishow/hide
+- Proses login dapat dilanjut
+
+**Hasil Sebenarnya**: Kata sandi berhasil dishow/hide, user bisa lanjut login
