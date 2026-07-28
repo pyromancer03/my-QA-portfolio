@@ -2,11 +2,14 @@
 Pengujian fitur pada modul product search yang bertujuan untuk memastikan fitur yang mencakup proses product search dapat berjalan dengan baik dan lancar sesuai dengan requirement
 
 ## TK-T36
-**Skenario**: Mencari produk di search bar  
+**Test Case**: Melakukan pencarian produk  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -14,16 +17,22 @@ Pengujian fitur pada modul product search yang bertujuan untuk memastikan fitur 
 3. Tekan enter
 
 **Data Uji**:  
-Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Sistem dapat menemukan dan menampilkan produk yang dicari  
-**Hasil Sebenarnya**: Sistem dapat menemukan dan menampilkan produk yang dicari
+Nama Produk: Laptop Asus Vivobook Go 14  
+**Hasil yang Diharapkan**:
+- Menampilkan daftar produk berdasarkan kata kunci yang dimasukkan
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil menampilkan daftar produk, informasi produk berhasil ditampilkan
 
 ## TK-T37
-**Skenario**: Pencarian nama produk salah ketik (typo)  
+**Test Case**: Pencarian nama produk salah ketik (typo)  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -32,15 +41,23 @@ Nama Produk: Lemari Pakaian
 
 **Data Uji**:  
 Nama Produk: Lemri Pakqian  
-**Hasil yang Diharapkan**: Sistem menampilkan pesan "Tidak dapat menemukan hasil untuk lemri pakqian. Menampilkan hasil untuk lemari pakaian", sistem menampilkan hasil pencarian yang dimaksud "Lemari Pakaian"  
-**Hasil Sebenarnya**: Sistem menampilkan pesan "Tidak dapat menemukan hasil untuk lemri pakqian. Menampilkan hasil untuk lemari pakaian", sistem menampilkan hasil pencarian yang dimaksud "Lemari Pakaian"
+**Hasil yang Diharapkan**:
+- Menampilkan pesan "Tidak dapat menemukan hasil untuk lemri pakqian. Menampilkan hasil untuk lemari pakaian"
+- Sistem memperbaiki penulisan yang typo
+- Sistem menampilkan hasil pencarian yang sudah dikoreksi
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil menampilkan pesan, sistem berhasil memperbaiki penulisan, sistem berhasil menampilkan hasil pencarian, informasi produk sesuai
 
 ## TK-T38
-**Skenario**: Mencari nama produk tanpa spasi  
+**Test Case**: Mencari nama produk tanpa spasi  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -49,15 +66,23 @@ Nama Produk: Lemri Pakqian
 
 **Data Uji**:  
 Nama Produk: Lemaripakaian  
-**Hasil yang Diharapkan**: Sistem menampilkan pesan "Tidak dapat menemukan hasil untuk lemaripakaian. Menampilkan hasil untuk lemari pakaian", sistem menampilkan hasil pencarian "Lemari Pakaian"  
-**Hasil Sebenarnya**: Sistem menampilkan pesan "Tidak dapat menemukan hasil untuk lemaripakaian. Menampilkan hasil untuk lemari pakaian", sistem menampilkan hasil pencarian "Lemari Pakaian"
+**Hasil yang Diharapkan**:
+- Menampilkan pesan "Tidak dapat menemukan hasil untuk lemaripakaian. Menampilkan hasil untuk lemari pakaian"
+- Sistem memperbaiki penulisan yang kurang spasi
+- Sistem menampilkan hasil pencarian yang sudah dikoreksi
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil menampilkan pesan, sistem berhasil memperbaiki penulisan, sistem berhasil menampilkan hasil pencarian, informasi produk sesuai 
 
 ## TK-T39
-**Skenario**: Mencari produk dengan nama asal  
+**Test Case**: Mencari produk dengan nama asal  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -66,15 +91,22 @@ Nama Produk: Lemaripakaian
 
 **Data Uji**:  
 Nama Produk: vrqwert  
-**Hasil yang Diharapkan**: Sistem menampilkan hasil pencarian berdasarkan kata kunci "VR" yang terdapat pada penulisan "vrqwert"  
-**Hasil Sebenarnya**: Sistem menampilkan hasil pencarian berdasarkan kata kunci "VR" yang terdapat pada penulisan "vrqwert"
+**Hasil yang Diharapkan**:
+- Sistem mencari berdasarkan kata kunci yang ada pada penulisan
+- Menampilkan hasil pencarian berdasarkan kata kunci "VR" yang terdapat pada penulisan "vrqwert"
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil mencari produk dari kata kunci, sistem berhasil menampilkan produk, informasi produk sesuai
 
 ## TK-T40
-**Skenario**: Menampilkan saran pencarian produk pada search bar  
+**Test Case**: Menampilkan saran pencarian produk pada search bar  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada di halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -83,15 +115,22 @@ Nama Produk: vrqwert
 
 **Data Uji**:  
 Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Sistem dapat memberikan saran pencarian produk yang terkait dengan nama produk yang diketik pada search bar  
-**Hasil Sebenarnya**: Sistem dapat memberikan saran pencarian produk yang terkait dengan nama produk yang diketik pada search bar
+**Hasil yang Diharapkan**:
+- Memberikan saran pencarian produk yang terkait dengan nama produk yang diketik pada search bar
+- Menampilkan hasil pencarian dari saran produk yang diklik
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem memberikan saran pencarian produk, sistem berhasil menampilkan hasil pencarian, informasi produk sesuai
 
 ## TK-T41
-**Skenario**: Jumlah produk yang ditampilkan bertambah ketika halaman discroll ke bawah  
+**Test Case**: Jumlah produk yang ditampilkan bertambah ketika halaman discroll ke bawah  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada​​​​​ di halaman hasil pencarian produk  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -101,15 +140,21 @@ Nama Produk: Lemari Pakaian
 
 **Data Uji**:  
 Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Sistem dapat menampilkan hasil pencarian produk lainnya yang serupa ketika discroll ke bawah  
-**Hasil Sebenarnya**: Sistem dapat menampilkan hasil pencarian produk lainnya yang serupa ketika discroll ke bawah
+**Hasil yang Diharapkan**:
+- Load hasil pencarian produk lainnya yang serupa ketika discroll ke bawah
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil load produk lainnya, informasi produk sesuai
 
 ## TK-T42
-**Skenario**: Memuat total produk lebih banyak  
+**Test Case**: Memuat total produk lebih banyak  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berada​​​​​ di halaman hasil pencarian produk  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -120,15 +165,21 @@ Nama Produk: Lemari Pakaian
 
 **Data Uji**:  
 Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Sistem dapat memuat lebih banyak produk yang dicari  
+**Hasil yang Diharapkan**:
+- Sistem memuat lebih banyak produk
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
 **Hasil Sebenarnya**: Sistem dapat memuat lebih banyak produk yang dicari
 
 ## TK-T43
-**Skenario**: Mencari nama toko  
+**Test Case**: Mencari nama toko  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berad​​​​​a pada halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -138,34 +189,46 @@ Nama Produk: Lemari Pakaian
 
 **Data Uji**:  
 Nama Toko: Lenovo Official  
-**Hasil yang Diharapkan**: Sistem dapat menampilkan nama toko yang dicari  
-**Hasil Sebenarnya**: Sistem dapat menampilkan nama toko yang dicari
+**Hasil yang Diharapkan**:
+- Menampilkan nama toko yang dicari
+- Memuat data nama toko lainnya yang memiliki kata kunci serupa
+
+**Hasil Sebenarnya**: Sistem berhasil menampilkan nama toko, sistem berhasil memuat nama toko lainnya
 
 ## TK-T44
-**Skenario**: Mengurutkan produk yang ditampilkan  
+**Test Case**: Mengurutkan produk yang ditampilkan  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Berad​​​​​a pada halaman yang memiliki fitur pencarian  
+**Prasyarat**:
+- Berada di halaman yang menampilkan search bar
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
-2. Ketik nama produk "Lemari Pakaian"
+2. Ketik nama produk
 3. Tekan enter
 4. Pilih opsi urutkan (Paling Sesuai, Ulasan, Terbaru, Harga Tertinggi, Harga Terendah)
 5. Pilih urutan yang diinginkan
 
 **Data Uji**:  
 Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Sistem dapat mengurutkan produk berdasarkan pilihan user  
-**Hasil Sebenarnya**: Sistem dapat mengurutkan produk berdasarkan pilihan user
+**Hasil yang Diharapkan**:
+- Produk diurutkan berdasarkan pilihan user
+- Informasi produk ditampilkan dengan benar (nama, harga, gambar, nama toko, dan rating produk)
+
+**Hasil Sebenarnya**: Sistem berhasil mengurutkan produk, informasi produk sesuai
 
 ## TK-T45
-**Skenario**: Back to top button  
+**Test Case**: Back to top button  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: B​​​​​erada di halaman hasil pencarian  
+**Prasyarat**:
+- Berada di halaman hasil pencarian
+
 **Langkah Pengujian**:
 
 1. K​​​​​lik pada search bar
@@ -176,5 +239,8 @@ Nama Produk: Lemari Pakaian
 
 **Data Uji**:  
 Nama Produk: Lemari Pakaian  
-**Hasil yang Diharapkan**: Tampilan otomatis kembali ke bagian paling atas hasil pencarian  
-**Hasil Sebenarnya**: Tampilan otomatis kembali ke bagian paling atas hasil pencarian
+**Hasil yang Diharapkan**:
+- Tampilan otomatis kembali ke hasil pencarian paling atas
+- Halaman tetap menampilkan hasil pencarian saat ini
+
+**Hasil Sebenarnya**: Tampilan kembali ke hasil pencarian paling atas, tetap menampilkan hasil pencarian produk saat ini
