@@ -178,28 +178,32 @@ Email: rizky03@.com
 **Prioritas**: Normal  
 **Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Tidak ada  
+**Prasyarat**: Tidak ada
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. K​lik "Daftar"
 3. Masukkan email dengan kombinasi huruf kecil dan huruf besar
 4. Klik "Daftar"
 
 **Data Uji**:  
 Email: Rizky03@Gmail.com  
-**Hasil yang Diharapkan**: Sistem dapat mengenali dan menerima karakter email kombinasi huruf kecil dan huruf besar, user dapat melanjutkan proses register akun  
-**Hasil Sebenarnya**: Sistem dapat mengenali dan menerima karakter email kombinasi huruf kecil dan huruf besar, user dapat melanjutkan proses register akun
+**Hasil yang Diharapkan**:
+- Sistem dapat mengenali dan menerima karakter email kombinasi huruf kecil dan huruf besar
+- User dapat melanjutkan proses pendaftaran akun
+
+**Hasil Sebenarnya**: Sistem menerima karakter kombinasi huruf kecil dan huruf besar, user dapat melanjutkan pendaftaran
 
 ## TK-T25
-**Skenario**: Show/hide kata sandi  
+**Test Case**: Show/hide kata sandi  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Low  
-**Jenis Tes**: Functional Test  
+**Test Status**: Pass  
+**Jenis Test**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp atau email
 4. Klik "Daftar"
@@ -213,18 +217,22 @@ Email: Rizky03@Gmail.com
 No HP: 081380065633  
 Email: rizky03@gmail.com  
 Kata Sandi: rizkyf03  
-**Hasil yang Diharapkan**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses register  
-**Hasil Sebenarnya**: Kata sandi dapat dishow/hide dan user dapat melanjutkan proses register
+**Hasil yang Diharapkan**:
+- Kata sandi dapat dishow/hide
+- User dapat melanjutkan proses pendaftaran akun
+
+**Hasil Sebenarnya**: Kata sandi berhasil dishow/hide, user dapat lanjut pendaftaran
 
 ## TK-T26
-**Skenario**: Nama lengkap diisi dengan karakter selain alfabet  
+**Test Case**: Nama lengkap diisi dengan karakter selain alfabet  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
-**Jenis Tes**: Functional Test  
+**Test Status**: Pass  
+**Jenis Test**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp atau email
 4. Klik "Daftar"
@@ -237,5 +245,9 @@ Kata Sandi: rizkyf03
 No HP: 081380065633  
 Email: rizky03@gmail.com  
 Nama Lengkap: RizkyF0313  
-**Hasil yang Diharapkan**: Sistem berhasil mevalidasi jenis karakter yang diinput, muncul pesan error di bawah form nama lengkap "Nama harus mengandung huruf alfabet saja"  
-**Hasil Sebenarnya**: Sistem berhasil mevalidasi jenis karakter yang diinput, muncul pesan error di bawah form nama lengkap "Nama harus mengandung huruf alfabet saja"
+**Hasil yang Diharapkan**:
+- Sistem memvalidasi jenis karakter yang diinput
+- Menampilkan pesan "Nama harus mengandung huruf alfabet saja"
+- User tidak dapat melanjutkan proses pendaftaran akun
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi jenis karakter yang diinput, sistem berhasil menampilkan pesan, user tidak dapat lanjut pendaftaran
