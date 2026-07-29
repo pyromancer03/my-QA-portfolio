@@ -2,14 +2,17 @@
 Pengujian fitur pada modul register yang bertujuan untuk memastikan fitur yang mencakup proses register dapat berjalan dengan baik dan lancar sesuai dengan requirement
 
 ## TK-T6
-**Skenario**: Mendaftarkan akun baru  
+**Test Case**: Mendaftarkan akun baru  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Belum mendaftarkan akun  
+**Prasyarat**:
+- Belum memiliki akun terdaftar
+
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp atau email
 4. Klik "Daftar"
@@ -24,35 +27,52 @@ No HP: 081380065633
 Email: rizky03@gmail.com  
 Nama Lengkap: Rizky F  
 Kata Sandi: rizkyf03  
-**Hasil yang Diharapkan**: Sistem berhasil menyimpan informasi akun baru yang didaftarkan, user berhasil mendaftarkan akun baru  
-**Hasil Sebenarnya**: Sistem berhasil menyimpan informasi akun baru yang didaftarkan, user berhasil mendaftarkan akun baru
+**Hasil yang Diharapkan**:
+- User dapat mendaftarkan akun baru
+- Informasi akun baru akan tersimpan di sistem
+- User berhasil login ke website
+- User diarahkan ke halaman utama website
+
+**Hasil Sebenarnya**: User berhasil mendaftarkan akun, akun baru berhasil tersimpan, user berhasil login, user diarahkan ke halaman utama
 
 ## TK-T18
-**Skenario**: Mendaftarkan akun baru dengan google account  
+**Test Case**: Mendaftarkan akun baru dengan google account  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Belum mendaftarkan akun  
+**Prasyarat**:
+- Belum memiliki akun terdaftar
+- Memiliki akun google yang aktif
+
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik ​"Daftar"
 3. Klik ​"Google"
 4. Pilih akun google
 5. Masukkan kode verifikasi
 
-**Hasil yang Diharapkan**: User berhasil mendaftarkan akun baru dengan google account, user diarahkan ke halaman utama  
-**Hasil Sebenarnya**: User berhasil mendaftarkan akun baru dengan google account, user diarahkan ke halaman utama
+**Hasil yang Diharapkan**:
+- User dapat mendaftarkan akun baru dengan akun google
+- Informasi akun baru akan tersimpan di sistem
+- User berhasil login ke website
+- User diarahkan ke halaman utama website
+
+**Hasil Sebenarnya**: User berhasil mendaftarkan akun, akun baru berhasil tersimpan, user berhasil login, user diarahkan ke halaman utama
 
 ## TK-T19
-**Skenario**: Mendaftarkan akun baru dengan akun yang telah terdaftar  
+**Test Case**: Mendaftarkan akun baru dengan akun yang telah terdaftar  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: High  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
-**Prasyarat**: Memiliki akun terdaftar  
+**Prasyarat**:
+- Memiliki akun yang sudah terdaftar
+
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp atau email yang sudah terdaftar
 4. Klik "Daftar"
@@ -60,79 +80,103 @@ Kata Sandi: rizkyf03
 **Data Uji**:  
 No HP: 081380065633  
 Email: rizky03@gmail.com  
-**Hasil yang Diharapkan**: Sistem dapat mengenali no hp atau email yang telah terdaftar, muncul pop up "Email sudah terdaftar" dan user diberikan pilihan untuk ubah informasi no hp/email atau masuk dengan no hp/email tersebut  
-**Hasil Sebenarnya**: Sistem dapat mengenali no hp atau email yang telah terdaftar, muncul pop up "Email sudah terdaftar" dan user diberikan pilihan untuk ubah informasi no hp/email atau masuk dengan no hp/email tersebut
+**Hasil yang Diharapkan**:
+- Sistem dapat memvalidasi informasi akun yang sudah terdaftar
+- Menampilkan pesan "Email sudah terdaftar"
+- User diberikan opsi untuk ubah informasi no hp/email atau masuk ke halaman login
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi akun yang sudah terdaftar, sistem berhasil menampilkan pesan, user berhasil diberikan opsi untuk login
 
 ## TK-T20
-**Skenario**: No hp kurang dari 8 karakter  
+**Test Case**: No hp kurang dari 8 karakter  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
+**Test Status**:  Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp kurang dari 8 karakter
 
 **Data Uji**:  
 No HP: 081350  
-**Hasil yang Diharapkan**: Sistem dapat memvalidasi jumlah minimal karakter no hp, muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"  
-**Hasil Sebenarnya**: Sistem dapat memvalidasi jumlah minimal karakter no hp, muncul pesan error di bawah form no hp "Nomor ponsel terlalu pendek, minimum 8 angka"
+**Hasil yang Diharapkan**:
+- Sistem dapat memvalidasi jumlah minimal karakter no hp
+- Sistem menampilkan pesan "Nomor ponsel terlalu pendek, minimum 8 angka"
+- User tidak bisa melanjutkan proses pendaftaran
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi hasil input user, sistem berhasil menampilkan pesan, user tidak dapat lanjut pendaftaran
 
 ## TK-T21
-**Skenario**: No hp lebih dari 15 karakter  
+**Test Case**: No hp lebih dari 15 karakter  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. Klik "Daftar"
 3. Masukkan no hp lebih dari 15 karakter
 
 **Data Uji**:  
 No HP: 081380065633326449  
-**Hasil yang Diharapkan**: Sistem dapat memvalidasi jumlah maksimal karakter no hp, muncul pesan error di bawah form no hp "Nomor ponsel terlalu panjang, maksimum 15 angka"  
-**Hasil Sebenarnya**: Sistem dapat memvalidasi jumlah maksimal karakter no hp, muncul pesan error di bawah form no hp "Nomor ponsel terlalu panjang, maksimum 15 angka"
+**Hasil yang Diharapkan**:
+- Sistem dapat memvalidasi jumlah maksimum karakter no hp
+- Sistem menampilkan pesan "Nomor ponsel terlalu panjang, maksimum 15 angka"
+- User tidak bisa melanjutkan proses pendaftaran
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi hasil input user, sistem berhasil menampilkan pesan, user tidak dapat lanjut pendaftaran
 
 ## TK-T22
-**Skenario**: Memasukkan format email yang tidak sesuai  
+**Test Case**: Memasukkan format email yang tidak sesuai  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. K​lik "Daftar"
 3. Masukkan format email yang tidak sesuai
 
 **Data Uji**:  
 Email: rizky03@.com  
-**Hasil yang Diharapkan**: Sistem dapat memvalidasi format email yang salah/tidak sesuai, muncul pesan error di bawah form email "Format email salah"  
-**Hasil Sebenarnya**: Sistem dapat memvalidasi format email yang salah/tidak sesuai, muncul pesan error di bawah form email "Format email salah"
+**Hasil yang Diharapkan**:
+- Sistem dapat memvalidasi format email yang tidak sesuai
+- Menampilkan pesan "Format email salah"
+- User tidak bisa melanjutkan proses pendaftaran
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi hasil input user, sistem berhasil menampilkan pesan, user tidak dapat lanjut pendaftaran
 
 ## TK-T23
-**Skenario**: Mengosongkan field no hp atau email  
+**Test Case**: Mengosongkan field no hp atau email  
 **Jenis Pendekatan**: Negative Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
 
-1. Buka Website
+1. Buka website
 2. K​lik "Daftar"
 3. Kosongkan form no hp atau email
 
-**Hasil yang Diharapkan**: Sistem dapat memvalidasi form input yang kosong, tombol daftar akan disabled  
-**Hasil Sebenarnya**: Sistem dapat memvalidasi form input yang kosong, tombol daftar akan disabled
+**Hasil yang Diharapkan**:
+- Sistem dapat memvalidasi form input yang kosong
+- Tombol daftar akan disabled
+
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi form input, tombol daftar disabled
 
 ## TK-T24
-**Skenario**: Email case insensitive  
+**Test Case**: Email case insensitive  
 **Jenis Pendekatan**: Positive Test  
 **Prioritas**: Normal  
+**Test Status**: Pass  
 **Jenis Tes**: Functional Test  
 **Prasyarat**: Tidak ada  
 **Langkah Pengujian**:
