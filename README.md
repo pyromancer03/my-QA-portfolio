@@ -57,12 +57,14 @@ Pada repository pengujian ini memiliki beberapa artefak pengujian:
 ## Test Result
 |      Metric      |     Result     |  
 |------------------|----------------|  
-| Total Test Cases |       60       |  
-| Passed           |       60       |  
+| Total Test Cases |       66       |  
+| Passed           |       66       |  
 | Failed           |        0       |  
 | Blocked          |        0       |  
 | Not Executed     |        0       |  
 | Defects Found    |        0       |
+
+Dalam pengujian functional ini dapat diambil kesimpulan bahwa dari total 66 test case yang telah dieksekusi, tidak ditemukan adanya defect pada sistem dan seluruh test case lolos dalam pengujian. 
 
 ## Tentang Saya
 Nama: Muhammad Rizky Fiqryansyah
