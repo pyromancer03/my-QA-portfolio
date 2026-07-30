@@ -7,7 +7,7 @@ Direview oleh: -
 Status Persetujuan: Draft
 
 # 2. Pendahuluan
-Dokumen ini menjelaskan strategi, pendekatan, ruang lingkup, dan kriteria keberhasilan untuk pengujian fitur modul login, register, forgot password, product detail, product search, dan cart pada website Tokopedia
+Dokumen ini menjelaskan strategi, pendekatan, ruang lingkup, dan kriteria keberhasilan untuk pengujian fitur modul login, register, forgot password, product detail, product search, dan cart pada website **Tokopedia-Inspired**
 
 # 3. Tujuan
 - Memastikan pengguna dapat masuk ke aplikasi menggunakan kredensial yang valid, sistem menolak kredensial yang tidak valid, serta seluruh proses autentikasi berjalan dengan aman, benar, dan sesuai kebutuhan bisnis
