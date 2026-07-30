@@ -64,7 +64,7 @@ Pada repository pengujian ini memiliki beberapa artefak pengujian:
 | Not Executed     |        0       |  
 | Defects Found    |        0       |
 
-Dalam pengujian functional ini dapat diambil kesimpulan bahwa dari total 66 test case yang telah dieksekusi, tidak ditemukan adanya defect pada sistem dan seluruh test case lolos dalam pengujian. 
+Dalam pengujian functional ini dapat diambil kesimpulan bahwa dari total 66 test case yang telah dieksekusi, tidak ditemukan adanya defect pada sistem dan seluruh test case lolos dalam pengujian. Presentasi keberhasilan pada test case adalah 100%, hasil tersebut sudah melebihi batas yang diharapkan
 
 ## Tentang Saya
 Nama: Muhammad Rizky Fiqryansyah
