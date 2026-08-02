@@ -357,8 +357,7 @@ Kata Sandi: RizKY03
 - Sistem menampilkan pesan error "Email atau kata sandi salah"
 - User tidak berhasil login
 
-**Hasil Sebenarnya**: Sistem berhasil memvalidasi inputan user, sistem menolak format karakter yang tidak sesuai, sistem menampilkan pesan error, user tidak bisa lanjut login    
-**Catatan**: Pesan error tidak spesifik dan masih bersifat umum. Pesan error mungkin bisa dibuat lebih spesifik lagi pada tahap UX
+**Hasil Sebenarnya**: Sistem berhasil memvalidasi inputan user, sistem menolak format karakter yang tidak sesuai, sistem menampilkan pesan error, user tidak bisa lanjut login
 
 ## TK-T17
 **Test Case**: Show/hide kata sandi  
