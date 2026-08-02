@@ -100,6 +100,7 @@ Email: rizky03@gmail.com
 **Hasil yang Diharapkan**:
 - User login dengan akun yang sama di handphone
 - User diarahkan ke halaman utama website
+
 **Hasil Sebenarnya**: User berhasil login dengan akun yang sama di handphone, user berhasil masuk ke halaman utama
 
 ## TK-T5
