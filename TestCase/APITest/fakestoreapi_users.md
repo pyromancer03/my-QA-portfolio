@@ -1,7 +1,7 @@
 # DISCLAIMER  
 Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di sini saya akan melakukan API Testing menggunakan dummy API website. Pada tahap ini, saya ingin menunjukkan proses pengujian API Testing pada website fakestoreapi dan membuktikan saya dapat memahami proses API Testing.
 
-## AT-02 - Get List User
+## AT-02
 **API Name**: Get List user  
 **Fitur**: Menampilkan seluruh data user  
 **Method**: GET  
@@ -40,19 +40,26 @@ Value: 4
 ## AT-04  
 **API Name**: Add new user  
 **Fitur**: Menambahkan user baru  
-**Method**: GET  
-**Endpoint**: https://fakestoreapi.com/users/{id}  
-**Path Variables**: 
-Key: id  
-Value: 4
-
+**Method**: POST  
+**Endpoint**: https://fakestoreapi.com/users/  
 **Tool**: Postman  
 **Objective**: Memastikan sistem dapat mencari dan mengembalikan data user berdasarkan ID  
 **Test Status**: Pass
+
+**Request**
+Body:
+```
+{
+  "username": "Rizky",
+  "email": "rizky@gmail.com",
+  "password": "123456"
+}
+```
+
 **Hasil yang diharapkan**:
-- API mengembalikan response data user sesuai ID
-- Status code 200
+- API akan menambahkan data user baru
+- Status code 201
 - Response body berupa json
 - Response time < 1000ms
 
-**Hasil sebenarnya**: API berhasil mengembalikan data user dengan ID 4, status code 200 OK, body berupa json, response time berhasil < 1000ms
+**Hasil sebenarnya**: API berhasil menambahkan user baru, status code 201 Created, body berupa json, response time berhasil < 1000ms
