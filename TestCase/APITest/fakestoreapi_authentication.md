@@ -10,7 +10,7 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **Objective**: Memastikan user dapat login dengan username dan password yang valid  
 **Test Status**: Pass
 
-**Request**
+**Request**  
 Body:
 ```json
 {
