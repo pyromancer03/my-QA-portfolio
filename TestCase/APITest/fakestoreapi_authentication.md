@@ -26,4 +26,3 @@ Body:
 - Response time < 1000ms
 
 **Hasil sebenarnya**: User berhasil login, status code 200 OK, body berupa json, token berhasil diterima, response time berhasil < 1000ms
-
