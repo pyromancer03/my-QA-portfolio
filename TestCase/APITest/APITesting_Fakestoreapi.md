@@ -5,6 +5,25 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **Fitur**: User Authentication  
 **API Name**: User Login  
 **Method**: POST  
-**Endpoint**: https://fakestoreapi.com/auth/login/
+**Endpoint**: https://fakestoreapi.com/auth/login/  
 **Tool**: Postman  
-**Content-Type**: application/json
+**Objective**: Memastikan user dapat login dengan username dan password yang valid  
+**Test Status**: Pass
+
+**Request**:  
+Body:
+```json
+{
+  "username": "johnd",
+  "password": "m38rmF$"
+}
+```
+**Hasil yang diharapkan**:
+- User dapat login
+- Status code 200
+- Response body berupa json
+- Response menampilkan token
+- Response time < 1000ms
+
+**Hasil sebenarnya**: User berhasil login, status code 200 OK, body berupa json, token berhasil diterima, response time berhasil < 1000ms
+
