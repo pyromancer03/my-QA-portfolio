@@ -36,10 +36,10 @@ Repository ini berisi dokumentasi Manual Software Quality Assurance untuk aplika
 ## Struktur Repository  
 TestCase/  
 ├── APITest/  
-│   ├── fakestoreapi_authentication.md
-|   ├── fakestoreapi_cart.md
-|   ├── fakestoreapi_products.md
-|   ├── fakestoreapi_users.md
+│   ├── fakestoreapi_authentication.md  
+|   ├── fakestoreapi_cart.md  
+|   ├── fakestoreapi_products.md  
+|   ├── fakestoreapi_users.md  
 ├── FunctionalTest/  
 │   ├── Cart.md  
 │   ├── Modul_ForgotPassword.md  
