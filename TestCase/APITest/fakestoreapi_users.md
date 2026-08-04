@@ -5,7 +5,7 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **API Name**: Get List user  
 **Fitur**: Menampilkan seluruh data user  
 **Method**: GET  
-**Endpoint**: https://fakestoreapi.com/users  
+**Endpoint**: https://fakestoreapi.com/users/  
 **Tool**: Postman  
 **Objective**: Memastikan API dapat mengembalikan response seluruh data user  
 **Test Status**: Pass  
@@ -27,7 +27,7 @@ Key: id
 Value: 4
 
 **Tool**: Postman  
-**Objective**: Memastikan sistem dapat mencari dan mengembalikan data user berdasarkan ID  
+**Objective**: Memastikan API dapat mencari dan mengembalikan data user berdasarkan ID  
 **Test Status**: Pass  
 **Hasil yang diharapkan**:
 - API mengembalikan response data user sesuai ID
@@ -111,7 +111,7 @@ Value: 4
 **Test Status**: Pass  
 **Hasil yang diharapkan**:
 - Data user dapat dihapus
-- API mengembalikan response data yang dihapus
+- API mengembalikan response data user yang dihapus
 - Status code 200
 - Response body berupa json
 - Response time < 1000ms
