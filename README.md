@@ -11,6 +11,7 @@ Repository ini berisi dokumentasi Manual Software Quality Assurance untuk aplika
 - Product Search
 - Product Detail
 - Cart
+- API website (Khusus untuk API menggunakan website Fakestoreapi)
 
 ### Out of Scope (Tidak termasuk)
 - Database validation
@@ -28,14 +29,17 @@ Repository ini berisi dokumentasi Manual Software Quality Assurance untuk aplika
 ## Tools dan Lingkungan Pengujian
 - Sistem Operasi: Windows 11
 - Browser: Google Chrome 150
-- Test Management Tool: Jira Zephyr
+- Test Management Tool: Jira Zephyr dan Postman
 - Environment: Production
 - Dokumentasi: Markdown
 
 ## Struktur Repository  
 TestCase/  
 ├── APITest/  
-│   └── Modul_Login.md  
+│   ├── fakestoreapi_authentication.md
+|   ├── fakestoreapi_cart.md
+|   ├── fakestoreapi_products.md
+|   ├── fakestoreapi_users.md
 ├── FunctionalTest/  
 │   ├── Cart.md  
 │   ├── Modul_ForgotPassword.md  
@@ -51,7 +55,7 @@ TestCase/
 Pada repository pengujian ini memiliki beberapa artefak pengujian:
 - Test Plan
 - Test Case
-- API Test Case
+- API Testing
 - Test Summary Report
 
 ## Test Result
