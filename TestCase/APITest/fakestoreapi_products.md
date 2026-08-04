@@ -21,7 +21,7 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **API Name**: Get product by ID  
 **Fitur**: Menampilkan data product berdasarkan ID  
 **Method**: GET  
-**Endpoint**: https://fakestoreapi.com/productsx/:id  
+**Endpoint**: https://fakestoreapi.com/products/:id  
 **Path Variables**:  
 Key: id  
 Value: 4
