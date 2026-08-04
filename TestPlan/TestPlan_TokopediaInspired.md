@@ -49,4 +49,4 @@ Pengujian akan dilaksanakan secara **manual testing** dengan menerapkan metode *
 - Minimal 95% test case berhasil (Pass)
 - Tidak ditemukan defect dengan severity Critical maupun High
 - Semua fungsi utama (Login, Register, Forgot Password, Product Search, Product Detail, dan Cart) berjalan sesuai expected result
-- API website dapat menghandle request dan memberikan response yang sesuai
+- API website dapat menghandle request dan memberikan response yang sesuai (Khusus untuk API menggunakan website Fakestoreapi)
