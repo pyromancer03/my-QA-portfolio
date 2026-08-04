@@ -35,7 +35,7 @@ Value: 4
 - Response body berupa json
 - Response time < 1000ms
 
-**Hasil sebenarnya**: API berhasil mengembalikan data user dengan ID 4, status code 200 OK, body berupa json, response time berhasil < 1000ms
+**Hasil sebenarnya**: API berhasil mengembalikan data user, status code 200 OK, body berupa json, response time berhasil < 1000ms
 
 ## AT-04  
 **API Name**: Add new user  
