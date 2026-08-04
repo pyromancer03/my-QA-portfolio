@@ -16,6 +16,7 @@ Dokumen ini menjelaskan strategi, pendekatan, ruang lingkup, dan kriteria keberh
 - Memastikan halaman detail produk menampilkan informasi produk secara lengkap, akurat, dan konsisten, serta fungsi-fungsi yang tersedia pada halaman tersebut
 - Memastikan fitur pencarian dapat menemukan produk yang sesuai berdasarkan kata kunci yang dimasukkan pengguna, menampilkan hasil yang relevan, serta menangani berbagai kondisi pencarian seperti typo, kata kunci, maupun produk yang tidak ditemukan
 - Memastikan pengguna dapat menambahkan, mengubah jumlah, menghapus produk dari keranjang, menghitung total harga dengan benar, serta mempertahankan data keranjang sesuai dengan proses bisnis aplikasi
+- Memastikan seluruh fungsi API dapat mengirimkan response yang sesuai dengan request pengguna dan berjalan dengan semestinya (Khusus untuk API menggunakan website Fakestoreapi)
 
 # 4. Ruang Lingkup
 ## In Scope  
@@ -29,6 +30,7 @@ Dokumen ini menjelaskan strategi, pendekatan, ruang lingkup, dan kriteria keberh
 - Error message validation
 - Basic session behavior (redirect ke halaman selanjutnya setelah login)
 - Boundary value testing untuk input field
+- API Testing
 
 ## Out of Scope
 - Database validation
@@ -44,6 +46,7 @@ Pengujian akan dilaksanakan secara **manual testing** dengan menerapkan metode *
 - Environment: Production
 
 ## 7. Kriteria Keberhasilan
-- Minimal 95% test case berhasil (Pass).
-- Tidak ditemukan defect dengan severity Critical maupun High.
-- Semua fungsi utama (Login, Register, Forgot Password, Product Search, Product Detail, dan Cart) berjalan sesuai expected result.
+- Minimal 95% test case berhasil (Pass)
+- Tidak ditemukan defect dengan severity Critical maupun High
+- Semua fungsi utama (Login, Register, Forgot Password, Product Search, Product Detail, dan Cart) berjalan sesuai expected result
+- API website dapat menghandle request dan memberikan response yang sesuai
