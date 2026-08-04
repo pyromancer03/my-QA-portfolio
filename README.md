@@ -82,5 +82,5 @@ Dalam pengujian functional ini dapat diambil kesimpulan bahwa dari total 66 test
 
 
 ## Tentang Saya
-Nama: Muhammad Rizky Fiqryansyah
+Nama: Muhammad Rizky Fiqryansyah  
 Email: rizkyansyah7255@gmail.com
