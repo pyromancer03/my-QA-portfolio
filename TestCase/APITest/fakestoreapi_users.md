@@ -79,7 +79,7 @@ Value: 4
 **Test Status**: Pass  
 
 **Request**  
-Body
+Body:
 ```json
 {
     "username": "Meka",
