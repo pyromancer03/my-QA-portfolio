@@ -58,7 +58,7 @@ Pada repository pengujian ini memiliki beberapa artefak pengujian:
 - API Testing
 - Test Summary Report
 
-## Test Result
+## Test Result (Tokopedia-Inspired)                     
 |      Metric      |     Result     |  
 |------------------|----------------|  
 | Total Test Cases |       66       |  
@@ -69,6 +69,17 @@ Pada repository pengujian ini memiliki beberapa artefak pengujian:
 | Defects Found    |        0       |
 
 Dalam pengujian functional ini dapat diambil kesimpulan bahwa dari total 66 test case yang telah dieksekusi, tidak ditemukan adanya defect pada sistem dan seluruh test case lolos dalam pengujian. Presentasi keberhasilan pada test case adalah 100%, hasil tersebut sudah melebihi batas yang diharapkan
+
+## Test Result (Fakestoreapi API Testing)
+|      Metric      |     Result     |  
+|------------------|----------------|  
+| Total Test Cases |       16       |  
+| Passed           |       16       |  
+| Failed           |        0       |  
+| Blocked          |        0       |  
+| Not Executed     |        0       |  
+| Defects Found    |        0       |
+
 
 ## Tentang Saya
 Nama: Muhammad Rizky Fiqryansyah
