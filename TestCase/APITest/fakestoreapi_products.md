@@ -46,9 +46,9 @@ Value: 4
 **Objective**: Memastikan API dapat menambahkan data product baru  
 **Test Status**: Pass
 
-**Request**
+**Request**  
 Body:
-```
+```json
 {
     "title": "Celana pendek",
     "price": 3,
@@ -80,9 +80,9 @@ Value: 3
 **Objective**: Memastikan API mengupdate data existing product dan mengembalikan data product  
 **Test Status**: Pass  
 
-**Request**
+**Request**  
 Body
-```
+```json
 {
     "title": "Baju panjang",
     "price": 3,
