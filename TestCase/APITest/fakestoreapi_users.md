@@ -48,7 +48,7 @@ Value: 4
 
 **Request**
 Body:
-```
+```json
 {
   "username": "Rizky",
   "email": "rizky@gmail.com",
@@ -80,7 +80,7 @@ Value: 4
 
 **Request**
 Body
-```
+```json
 {
     "username": "Meka",
     "email": "meka@gmail.com",
