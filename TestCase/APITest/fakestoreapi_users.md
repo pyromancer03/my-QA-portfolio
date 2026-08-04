@@ -7,7 +7,7 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **Method**: GET  
 **Endpoint**: https://fakestoreapi.com/users  
 **Tool**: Postman  
-**Objective**: Memastikan semua data user tersedia dan ditampilkan  
+**Objective**: Memastikan API dapat mengembalikan response seluruh data user  
 **Test Status**: Pass  
 **Hasil yang diharapkan**:
 - API mengembalikan response seluruh data user
@@ -43,7 +43,7 @@ Value: 4
 **Method**: POST  
 **Endpoint**: https://fakestoreapi.com/users/  
 **Tool**: Postman  
-**Objective**: Memastikan sistem dapat mencari dan mengembalikan data user berdasarkan ID  
+**Objective**: Memastikan API dapat menambahkan data user baru  
 **Test Status**: Pass
 
 **Request**
