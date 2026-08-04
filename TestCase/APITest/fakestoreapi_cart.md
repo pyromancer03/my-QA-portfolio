@@ -39,7 +39,7 @@ Value: 3
 
 ## AT-14  
 **API Name**: Add new item to cart  
-**Fitur**: Menambahkan item baru ke cart 
+**Fitur**: Menambahkan item baru ke cart  
 **Method**: POST  
 **Endpoint**: https://fakestoreapi.com/carts/  
 **Tool**: Postman  
