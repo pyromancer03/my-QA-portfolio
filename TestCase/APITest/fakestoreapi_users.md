@@ -8,9 +8,9 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **Endpoint**: https://fakestoreapi.com/users  
 **Tool**: Postman  
 **Objective**: Memastikan semua data user tersedia dan ditampilkan  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Hasil yang diharapkan**:
-- Seluruh data user dikembalikan
+- API mengembalikan response seluruh data user
 - Status code 200
 - Response body berupa json
 - Response time < 1000ms
@@ -21,14 +21,14 @@ Dikarenakan saya tidak memiliki hak akses untuk API internal Tokopedia, maka di 
 **API Name**: Get Single user  
 **Fitur**: Menampilkan data user berdasarkan ID    
 **Method**: GET  
-**Endpoint**: https://fakestoreapi.com/users/{id}  
-**Path Variables**: 
+**Endpoint**: https://fakestoreapi.com/users/:id  
+**Path Variables**:  
 Key: id  
 Value: 4
 
 **Tool**: Postman  
 **Objective**: Memastikan sistem dapat mencari dan mengembalikan data user berdasarkan ID  
-**Test Status**: Pass
+**Test Status**: Pass  
 **Hasil yang diharapkan**:
 - API mengembalikan response data user sesuai ID
 - Status code 200
@@ -60,6 +60,60 @@ Body:
 - API akan menambahkan data user baru
 - Status code 201
 - Response body berupa json
+- API mengembalikan response ID user baru
 - Response time < 1000ms
 
-**Hasil sebenarnya**: API berhasil menambahkan user baru, status code 201 Created, body berupa json, response time berhasil < 1000ms
+**Hasil sebenarnya**: API berhasil menambahkan user baru, status code 201 Created, body berupa json, API mengembalikan ID user, response time berhasil < 1000ms
+
+## AT-05
+**API Name**: Update user  
+**Fitur**: Mengupdate data existing user  
+**Method**: PUT  
+**Endpoint**: https://fakestoreapi.com/users/:id  
+**Path Variables**:  
+Key: id  
+Value: 4
+
+**Tool**: Postman  
+**Objective**: Memastikan API mengupdate data existing user dan mengembalikan data user  
+**Test Status**: Pass  
+
+**Request**
+Body
+```
+{
+    "username": "Meka",
+    "email": "meka@gmail.com",
+    "password": "meka123"
+}
+```
+
+**Hasil yang diharapkan**:
+- API mengupdate data existing user
+- API mengembalikan response data user yang telah diupdate
+- Status code 200
+- Response body berupa json
+- Response time < 1000ms
+
+**Hasil sebenarnya**: API berhasil mengupdate data user, API berhasil mengembalikan data user, status code 200 OK, body berupa json, response time berhasil < 1000ms
+
+## AT-06
+**API Name**: Delete user  
+**Fitur**: Menghapus data user berdasarkan ID  
+**Method**: DELETE  
+**Endpoint**: https://fakestoreapi.com/users/:id  
+**Path Variables**:  
+Key: id  
+Value: 4
+
+**Tool**: Postman  
+**Objective**: Memastikan data user dengan ID tertentu dapat dihapus  
+**Test Status**: Pass  
+**Hasil yang diharapkan**:
+- Data user dapat dihapus
+- API mengembalikan response data yang dihapus
+- Status code 200
+- Response body berupa json
+- Response time < 1000ms
+
+**Hasil sebenarnya**: Data user berhasil dihapus, API berhasil mengembalikan response data, status code 200 OK, body berupa json, response time berhasil < 1000ms
